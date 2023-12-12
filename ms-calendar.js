@@ -82,7 +82,6 @@ class MsCalendar extends HTMLElement {
     selectDate() {
         this.updateAttributeDatas();
         this.postData();
-        this.remove();
     }
 
     updateAttributeDatas() {
